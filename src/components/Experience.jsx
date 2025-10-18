@@ -1,9 +1,22 @@
 import React from "react";
 const experiences = [
   {
-    company: "Contour Software (Trapeze Group)",
-    period: "Jan 2024 – July 2025",
+    company: "Contour Software (Jonas Club)",
+    period: "Sept 2025 – Present",
     title: "Senior Software Developer",
+    location: "Lahore, Pakistan",
+    bullets: [
+      "Led Jonas Club (golf club CRM) styling switch, upgrades, and production optimizations.",
+      "Implemented authentication, authorization and accessibility best-practices.",
+      "Optimized large calendar UIs, virtual scroll, and memory usage.",
+      "Used Akita store, Angular OIDC, PrimeNG, Angular Material, and Storybook.",
+    ],
+  },
+
+  {
+    company: "Contour Software (Trapeze Group)",
+    period: "Jan 2024 – Aug 2025",
+    title: "Software Developer",
     location: "Lahore, Pakistan",
     bullets: [
       "Led Jonas Club (golf club CRM) styling switch, upgrades, and production optimizations.",
