@@ -1,9 +1,10 @@
-import React from "react";
+/* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
 import Hero from "./components/Hero";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Skills from "./components/Skills";
 
 export default function App() {
   return (
@@ -14,7 +15,7 @@ export default function App() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <nav className="flex items-center justify-between py-4">
+          <nav className="header-nav flex items-center justify-between py-4 rounded-2xl p-8 shadow-sm bg-white">
             <div className="text-lg font-semibold">Waleed Malik</div>
             <div className="space-x-4 text-sm">
               <a href="#experience" className="hover:underline">
@@ -22,6 +23,9 @@ export default function App() {
               </a>
               <a href="#projects" className="hover:underline">
                 Projects
+              </a>
+              <a href="#skills" className="hover:underline">
+                Skills
               </a>
               <a href="#contact" className="hover:underline">
                 Contact
@@ -34,6 +38,7 @@ export default function App() {
           <Hero />
           <Experience />
           <Projects />
+          <Skills />
           <Contact />
         </main>
 

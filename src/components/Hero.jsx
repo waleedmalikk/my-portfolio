@@ -1,5 +1,7 @@
-import React from "react";
+/* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
+
+import pic from "../assets/pic.jpg";
 
 export default function Hero() {
   return (
@@ -13,36 +15,35 @@ export default function Hero() {
           >
             Waleed Malik
           </motion.h1>
-          <p className="mt-2 text-slate-600">
-            Software Developer — Lahore, Pakistan
-          </p>
+          <p className="mt-2 text-slate-600">Full-Stack Developer</p>
 
           <div className="mt-4 space-y-2 text-sm">
-            <div>Contact: (+92) 309-6049309 · waleedmalik2010@gmail.com</div>
             <div>
+              (+92) 309-6049309 · waleedmalik2010@gmail.com ·
               <a
                 href="https://linkedin.com/in/waleedmalikk"
                 target="_blank"
                 rel="noreferrer"
                 className="underline"
               >
-                linkedin.com/in/waleedmalikk
+                {" linkedin.com/in/waleedmalikk"}
               </a>
             </div>
+            <div></div>
           </div>
         </div>
 
         <div className="mt-6 md:mt-0 flex-shrink-0">
           <div className="w-32 h-32 rounded-xl bg-gradient-to-br from-accent/20 to-transparent flex items-center justify-center text-sm text-slate-700">
-            W M
+            <img src={pic} alt="wm.jpg" />
           </div>
         </div>
       </div>
 
-      <div className="mt-6 text-slate-700 leading-relaxed text-sm">
-        <strong>Summary:</strong> Software developer skilled in Angular & Js.
-        Experienced building complex calendar UIs, performance optimization,
-        state management, and delivering production-grade apps.
+      <div className="mt-2 text-slate-700 leading-relaxed text-sm">
+        <strong>Summary: </strong>
+        Senior Full-Stack Developer specializing in Angular, JavaScript, NodeJs
+        and NestJs. Experienced in enterprise software, CRM, and ERP systems.
       </div>
     </section>
   );

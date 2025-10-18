@@ -1,4 +1,3 @@
-import React from "react";
 const experiences = [
   {
     company: "Contour Software (Jonas Club)",
@@ -6,10 +5,10 @@ const experiences = [
     title: "Senior Software Developer",
     location: "Lahore, Pakistan",
     bullets: [
-      "Led Jonas Club (golf club CRM) styling switch, upgrades, and production optimizations.",
-      "Implemented authentication, authorization and accessibility best-practices.",
-      "Optimized large calendar UIs, virtual scroll, and memory usage.",
-      "Used Akita store, Angular OIDC, PrimeNG, Angular Material, and Storybook.",
+      "Led frontend development for Jonas Club CRM.",
+      "Upgraded the application to the latest Angular version.",
+      "Implemented best practices in authentication, authorization accessibility, and state management",
+      "Managed production build optimization and deployed application updates.",
     ],
   },
 
@@ -19,10 +18,12 @@ const experiences = [
     title: "Software Developer",
     location: "Lahore, Pakistan",
     bullets: [
-      "Led Jonas Club (golf club CRM) styling switch, upgrades, and production optimizations.",
-      "Implemented authentication, authorization and accessibility best-practices.",
-      "Optimized large calendar UIs, virtual scroll, and memory usage.",
-      "Used Akita store, Angular OIDC, PrimeNG, Angular Material, and Storybook.",
+      "Developed transportation ERP system UI to handle hundreds of employee schedules, shifts, and absences.",
+      "Implemented variable-height virtual scroll to reduce memory usage by 400% and optimized Angular lifecycle hooks.",
+      "Built reusable UI components (calendars, tables, modals, dialogs) packaged via Storybook.",
+      "Used Akita for complex state management and RxJS OnPush to fix re-render issues.",
+      "Achieved 80%+ unit test coverage with Jasmine & Karma.",
+      "Followed Agile methodology, actively participating in sprint planning and reviews.",
     ],
   },
   {
@@ -31,8 +32,9 @@ const experiences = [
     title: "Full-Stack Developer",
     location: "Lahore, Pakistan",
     bullets: [
-      "Built CRM & inventory features with Angular and NestJS.",
-      "Developed role-based UI screens and dynamic forms.",
+      " Developed CRM & inventory management system using Angular, NGXS, Ionic, NestJS, SQL Server.",
+      "Built role-based UI screens, reactive forms, and dynamic validations.",
+      "Integrated serverless Node.js functions and legacy JavaScript/jQuery components.",
     ],
   },
   {
@@ -40,14 +42,19 @@ const experiences = [
     period: "Dec 2021 – June 2023",
     title: "Full-Stack Developer",
     location: "Lahore, Pakistan",
-    bullets: ["Clinic management app, calendar integrations, appointments."],
+    bullets: [
+      " Built clinic management system with Angular, Node.js, Bootstrap, MySQL, and GraphQL.",
+      "Developed modules for doctors, patients, and appointments with full calendar integration.",
+    ],
   },
   {
     company: "Afiniti Ltd.",
     period: "Mar 2021 – Oct 2021",
     title: "Data Analyst",
     location: "Lahore, Pakistan",
-    bullets: ["EDA, predictive models, and MySQL query optimizations."],
+    bullets: [
+      "Conducted exploratory data analysis, built predictive models in Python, and optimized MySQL queries.",
+    ],
   },
 ];
 

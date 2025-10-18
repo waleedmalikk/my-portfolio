@@ -16,7 +16,7 @@ body,
 }
 
 
-.main-container section
+.main-container section, .header-nav
 {
   background: #f1f5f9;
 }

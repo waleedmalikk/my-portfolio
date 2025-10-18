@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Contact() {
   return (
     <section id="contact" className="rounded-2xl p-6 shadow-sm bg-white">
